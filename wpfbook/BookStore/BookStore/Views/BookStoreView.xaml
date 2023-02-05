@@ -36,7 +36,6 @@
             <Button Command="{Binding AddCommand}">Добавить</Button>
             <Button Command="{Binding RemoveCommand}" CommandParameter="{Binding SelectedBook}">Удалить</Button>
             <Button Command ="{Binding UpdateCommand}" CommandParameter="{Binding SelectedBook}">Обновить</Button>
-            <Button Command="{Binding ShowAll}">Показать все</Button>
         </StackPanel>
         
 
